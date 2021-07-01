@@ -1,0 +1,18 @@
+body{
+	background: #262626;
+}
+
+.box{
+	height: 500px;
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #262626;
+	position: absolute;
+	border: 5px solid transparent;
+	border-image: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+	border-image-slice: 1;
+	box-shadow: 0 0 16px rgba(255,255,255,0.5);
+}
+
